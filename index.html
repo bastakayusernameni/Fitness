@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home - Fit 'N Well</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #97bfb4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(#96d9cb, #84c2b5, #5e8c83, #3f615a);
+            color: #fff;
+            margin-left: 110px;
+            margin-50px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 80%;
+            height: 50%
+            transition: transform 0.3s
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+      
+        .centered {
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+         .icn {
+          background-color: #96d9cb;
+          margin-left: 5%;
+          border-radius: 12px;
+          border: 5px;
+          color: black;
+          padding: 10px 20px;
+          font-size: 20px;
+          cursor: pointer;
+        }
+
+         .icn:hover {
+          background-color: #5e8c83;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .post {
+            background: linear-gradient(#96d9cb, #84c2b5, #5e8c83, #3f615a);
+            color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 30%;
+            transition: transform 0.3s;
+        }
+
+        .post:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 1.5);
+        }
+
+        .post img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .post h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+
+        .post p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            background-color: #17d4ae;
+            color: #fff;
+            padding: 8px 15px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #aaf0f2;
+        }
+
+        footer {
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            clear: both;
+        }
+    </style>
+</head>
+<body style="background-image: url('bg.jpg');">
+
+<header style="background-image: url(bg.jpg);">
+    <div class="header">
+  <p style="font-size:50px;color:#fff;font-family:cursive">Fit 'N Well</p>
+    </div>
+</header>
+
+   <button class="icn">
+   <i class="fa fa-home"></i>
+   <a href="homepage.html">Home</a></button>
+   <button class="icn"><i class="fa fa-comments-o"></i>
+   <a href="forumpage.html">Forum</a></button>
+   <button class="icn"><i class="fa fa-group"></i>
+   <a href="aboutpage.html">About Us</a></button>
+   <button class="icn"><i class="fa fa-stethoscope"></i>
+   <a href="coursepage.html">Course</a></button>
+   <button class="icn"><i class="fa fa-volume-control-phone"></i>
+   <a href="contactpage.html">Contact Us</a></button>    
+   <button class="icn"><i class="fa fa-user-circle-o"></i>
+   <a href="loginpage.html">Log In</a></button>
+
+<div class="container">
+    <div class="post">
+        <img src="image_1.jpg" alt="Fitness" style="height:300px">
+        <h2>5 Tips for Starting Your Fitness Journey</h2>
+        <p>Fitness program: 5 steps to get started</p>
+        <p>Are you thinking about starting a fitness program? Good for you! You're only five steps away from a healthier lifestyle.</p>
+        <a href="https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/fitness/art-20048269" class="btn">Read More</a>
+    </div>
+    <div class="post">
+        <img src="image_2.jpg" alt="Healthy Recipes" style="height:300px">
+        <h2>Quick And Healthy Recipes For Busy People</h2>
+        <p>Are you someone who's determined to eat healthy but don't have the time?</p>
+
+        <p>We've got a collection of quick and healthy recipes that not only burst with flavour but also won't keep you tied up in the kitchen.</p>
+        <a href="https://www.bbcgoodfood.com/recipes/collection/quick-and-healthy-recipes" class="btn">Read More</a>
+    </div>
+    <div class="post">
+        <img src="image_3.jpg" alt="Mental Health" style="height:300px">
+        <h2>The Importance of Mental Health in Your Fitness Routine</h2>
+        <p>From less stress to a boost in self-esteem, exercise is as great for your brain as it is for your body.
+        </p>
+        <a href="https://www.waldenu.edu/online-bachelors-programs/bs-in-psychology/resource/five-mental-benefits-of-exercise" class="btn">Read More</a>
+    </div>
+</div>
+
+<footer style="color: #fff;">
+    <h3>&copy; 2024 Fit 'N Well. All rights reserved.</h3>
+</footer>
+
+</body>
+</html>
